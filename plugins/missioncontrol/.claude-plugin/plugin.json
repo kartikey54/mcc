@@ -1,0 +1,12 @@
+{
+  "name": "missioncontrol",
+  "version": "0.1.0",
+  "description": "Point Claude Code at Mission Control for per-request cost, budgets and run-level traces.",
+  "homepage": "https://missioncontrol.center/docs/tools/claude-code/",
+  "repository": "https://github.com/kartikey54/mcc",
+  "license": "MIT",
+  "author": {
+    "name": "Mission Control",
+    "url": "https://missioncontrol.center"
+  }
+}

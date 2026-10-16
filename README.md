@@ -40,6 +40,15 @@ curl https://api.missioncontrol.center/v1/requests/<x-mcc-request-id> -H "Author
 
 The list of served models is public: `GET https://api.missioncontrol.center/v1/models`.
 
+## Claude Code plugin
+
+```
+claude plugin marketplace add kartikey54/mcc
+claude plugin install missioncontrol@missioncontrol
+```
+
+On Claude Code 2.1.275 or later: `/plugin install missioncontrol --marketplace kartikey54/mcc`. The plugin adds a skill that sets `ANTHROPIC_BASE_URL` and explains the request id, cost lookup and errors. Details: https://missioncontrol.center/docs/tools/claude-code/
+
 ## Packages
 
 - `@missioncontrol/mcp`: MCP server for keys, budgets, usage and the model catalog. The package name is reserved; it is not published to npm yet. Setup notes are in the docs: https://missioncontrol.center/docs/mcp/

@@ -1,0 +1,14 @@
+{
+  "name": "missioncontrol",
+  "owner": { "name": "Mission Control" },
+  "metadata": {
+    "description": "Claude Code plugins for Mission Control: one base URL for every model, with per-request cost, budgets and run-level traces."
+  },
+  "plugins": [
+    {
+      "name": "missioncontrol",
+      "source": "./plugins/missioncontrol",
+      "description": "Point Claude Code at Mission Control for per-request cost, budgets and run-level traces."
+    }
+  ]
+}
